@@ -36,8 +36,8 @@ export default function Intro() {
         </motion.div>
       </div>
       <motion.h1 className='mb-10 mt-4 text-2xl font-medium sm:text-4xl text-center max-w-prose' initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}>
-        <strong>Hello, I&apos;m Ricardo.</strong> I&apos;m a <strong>full-stack developer</strong> with <strong>8 years</strong> of experience. I enjoy building{' '}
-        <em>sites & apps</em>. My focus is <span className='underline'>React (Next.js)</span>.
+        <strong>Привет, я Алексей.</strong> Я <strong>фронтенд-разработчик</strong> с <strong>3 летним</strong> опытом работы. Мой фокус это{' '}
+        <span className='underline'>React (Next.js)</span>.
       </motion.h1>
       <motion.div
         className='flex flex-col sm:flex-row items-center justify-center gap-2 text-lg font-medium'
