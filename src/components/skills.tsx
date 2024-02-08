@@ -4,7 +4,7 @@ import SectionHeading from './section-heading';
 import { useSectionInView } from '@/lib/hooks';
 import { motion } from 'framer-motion';
 export default function Skills() {
-  const { ref } = useSectionInView('Skills');
+  const { ref } = useSectionInView('Навыки');
   const fadeInAnimationVariants = {
     initial: {
       opacity: 0,
@@ -20,7 +20,7 @@ export default function Skills() {
   };
   return (
     <section id='skills' ref={ref} className='mb-28 max-w-[800px] scroll-mt-28 text-center sm:mb-40'>
-      <SectionHeading>My Skills</SectionHeading>
+      <SectionHeading>Мои навыки</SectionHeading>
       <ul className='flex items-center justify-center flex-wrap gap-2 text-lg text-gray-800'>
         {skillsData.map((skill, index) => (
           <motion.li

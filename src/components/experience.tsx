@@ -8,10 +8,10 @@ import { experiencesData } from '@/lib/data';
 import { useSectionInView } from '@/lib/hooks';
 
 export default function Experience() {
-  const { ref, inView } = useSectionInView('Experience', 0.25);
+  const { ref, inView } = useSectionInView('Опыт', 0.25);
   return (
     <section ref={ref} id='experience' className='scroll-mt-28 mb-28 sm:mb-40 overflow-hidden'>
-      <SectionHeading>My experience</SectionHeading>
+      <SectionHeading>Опыт работы</SectionHeading>
       <VerticalTimeline lineColor=''>
         {experiencesData.map((item, index) => (
           <VerticalTimelineElement
@@ -31,7 +31,6 @@ export default function Experience() {
             }}
           >
             <h3 className='font-semibold capitalize'>{item.title}</h3>
-            <p className='font-normal !mt-0'>{item.location}</p>
             <p className='!mt-1 !font-normal text-gray-700'>{item.description}</p>
           </VerticalTimelineElement>
         ))}

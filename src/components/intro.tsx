@@ -4,11 +4,10 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { BsArrowRight } from 'react-icons/bs';
 import { buttonVariants } from './ui/button';
-import { HiDownload } from 'react-icons/hi';
 import { useSectionInView } from '@/lib/hooks';
 import { useActiveSectionContext } from '@/context/active-section-context';
 export default function Intro() {
-  const { ref } = useSectionInView('Home');
+  const { ref } = useSectionInView('Главная');
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
@@ -53,21 +52,12 @@ export default function Intro() {
             className: 'rounded-full gap-x-2',
           })}
           onClick={() => {
-            setActiveSection('Contact');
+            setActiveSection('Связь');
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition-transform' />
+          Связаться со мной <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition-transform' />
         </Link>
-        <a
-          className={buttonVariants({
-            variant: 'outline',
-          })}
-          href='/CV.pdf'
-          download
-        >
-          Download CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition' />
-        </a>
       </motion.div>
     </section>
   );
