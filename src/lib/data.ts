@@ -60,7 +60,7 @@ export const experiencesData = [
   },
   {
     title: 'Fullstack-разработчик',
-    description: 'Вот уже более полугода изучаю фулстэк-разработку. Выделил для себя Next.js, Node.js, Express. Подрабатываю на фрилансе фулстэком/фронтендером.',
+    description: 'Более полугода порабатываю на фрилансе фронтенд/фулстэк-разработчиком. Выделил для себя Next.js, Node.js, Express.',
     icon: React.createElement(FaAnchor),
     date: '2023 - present',
   },
