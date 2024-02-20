@@ -76,7 +76,7 @@ export const projectsData = [
   },
   {
     title: 'CargoGenius',
-    description: 'Мейн проект этого портфолио!Я работал фулстэк-разработчиком. Проект - интернет магазин с корзиной, пагинацией, фильтрацией, сортировкой, поиском и т.д',
+    description: 'Мейн проект! Работал фулстэк-разработчик. Интернет магазин с корзиной, пагинацией, фильтрацией, сортировкой, поиском и т.д',
     tags: ['React', 'TypeScript', 'Next.js', 'SCSS', 'Redux', 'NestJS', 'Sequelize ORM', 'MySQL'],
     imageUrl: cargo,
     url: 'https://cargo-client-production.up.railway.app',
