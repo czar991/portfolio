@@ -31,7 +31,6 @@ export default function Contact() {
     >
       <SectionHeading>Для связи</SectionHeading>
       <p>Телефон и WhatsApp: 8-977-272-78-53</p>
-      <p>Телеграм: @czar009</p>
       <p className='text-gray-700 -mt-6'>
         Вы можете связаться со мной по email напрямую{' '}
         <a className='underline' href='mailto:nevertheless997@gmail.com'>
