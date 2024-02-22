@@ -7,6 +7,7 @@ import { useSectionInView } from '@/lib/hooks';
 import { sendEmail } from '@/server-actions/sendEmail';
 import SubmitBtn from './submit-btn';
 import toast from 'react-hot-toast';
+import Link from 'next/link';
 
 export default function Contact() {
   const { ref } = useSectionInView('Связь');
@@ -54,6 +55,18 @@ export default function Contact() {
         <input className='h-14 px-4 rounded-lg borderBlack' name='senderEmail' type='email' placeholder='Ваш email' />
         <textarea className='h-52 my-3 rounded-lg borderBlack p-4' name='message' placeholder='Ваше сообщение' />
         <SubmitBtn />
+        <p className='mt-10 self-start'>
+          Также по телефону:{' '}
+          <a className='underline' href='tel:89772727853'>
+            8-977-272-78-53
+          </a>{' '}
+        </p>
+        <p className='self-start'>
+          Или в телеграм:{' '}
+          <a className='underline' href='https://t.me/czar009'>
+            @czar009
+          </a>
+        </p>
       </form>
     </motion.section>
   );
