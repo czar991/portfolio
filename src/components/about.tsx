@@ -17,10 +17,9 @@ export default function About() {
     >
       <SectionHeading>Обо мне</SectionHeading>
       <p className='mb-3'>
-        Четыре года назад я увлёкся программированием и записался на курсы фронтенд-разработчика. Начинал в айти как контент-менеджер &rarr; HTML верстальщик &rarr;
-        фронтенд-разработчик. Сейчас занимаюсь <span className='font-medium'>фул-стэк разработкой</span>. Мой основной стэк{' '}
-        <span className='font-medium'>React, Next.js, Node.js, TypeScript, Prisma и PostgreSQL</span>. Я всегда стремлюсь к изучению новых технологий. На данный момент ищу работу
-        <span className='font-medium'> как фулстэк/фронтенд</span> разработчик.
+        Начинал в айти как контент-менеджер &rarr; HTML верстальщик &rarr; фронтэнд-разработчик. Сейчас занимаюсь <span className='font-medium'>фронтэнд разработкой</span>. Мой
+        основной стэк <span className='font-medium'>React, Next.js, Node.js, TypeScript, Javascript, SCSS, Tailwind</span>. На данный момент ищу работу
+        <span className='font-medium'> как фулстэк/фронтэнд</span> разработчик.
       </p>
     </motion.section>
   );

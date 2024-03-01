@@ -12,7 +12,6 @@ export default function Projects() {
   return (
     <section ref={ref} id='projects' className='scroll-mt-28 mb-28'>
       <SectionHeading>Мои проекты</SectionHeading>
-      <p className='text-center mb-3 text-muted-foreground text-sm'>Нажать на проект для перехода</p>
       <div>
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>

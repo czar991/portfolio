@@ -1,7 +1,6 @@
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact, FaPenNib, FaAnchor } from 'react-icons/fa';
-import { LuGraduationCap } from 'react-icons/lu';
 import chechBets from '../../public/bets.png';
 import cargo from '../../public/cargo.png';
 import docsapp from '../../public/docsapp.png';
@@ -35,12 +34,6 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Онлайн курсы фронтенд-разработчика',
-    description: 'Я закончил курсы после 3 месяцев обучения и сразу нашел работу контент-менеджера.',
-    icon: React.createElement(LuGraduationCap),
-    date: '2020',
-  },
-  {
     title: 'Контент-менеджер',
     description: 'Я проработал контент-менеджером 2 месяца, попутно повышая квалификацию фронтенд-разработчика.',
     icon: React.createElement(CgWorkAlt),
@@ -60,7 +53,7 @@ export const experiencesData = [
   },
   {
     title: 'Fullstack-разработчик',
-    description: 'Более полугода порабатываю на фрилансе фронтенд/фулстэк-разработчиком. Выделил для себя Next.js, Node.js, Express.',
+    description: 'Более полугода подрабатываю на фрилансе фронтенд/фулстэк-разработчиком. Выделил для себя Next.js, Node.js, Nestjs.',
     icon: React.createElement(FaAnchor),
     date: '2023 - present',
   },
@@ -76,14 +69,14 @@ export const projectsData = [
   },
   {
     title: 'CargoGenius',
-    description: 'Мейн проект! Работал фулстэк-разработчик. Интернет магазин с корзиной, пагинацией, фильтрацией, сортировкой, поиском и т.д',
+    description: 'Pet-проект. Фулстэк-разработчик. Прототип интернет магазина.',
     tags: ['React', 'TypeScript', 'Next.js', 'SCSS', 'Redux', 'NestJS', 'Sequelize ORM', 'MySQL'],
     imageUrl: cargo,
     url: 'https://cargo-client-production.up.railway.app',
   },
   {
     title: 'DocsApp',
-    description: 'Фулстэк. Пет-проект для создания заметок!',
+    description: 'Фулстэк-разработчик. Pet-проект для создания заметок.',
     tags: ['React', 'Next.js', 'Tailwind', 'FramerJs'],
     imageUrl: docsapp,
     url: 'https://docsapp-tau.vercel.app',
@@ -102,7 +95,8 @@ export const skillsData = [
   'Tailwind',
   'Prisma',
   'Redux',
-  'Express',
+  'NestJs',
   'PostgreSQL',
   'MongoDB',
+  'Framer-motion',
 ] as const;
